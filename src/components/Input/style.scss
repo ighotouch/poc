@@ -1,0 +1,13 @@
+.select {
+  position: relative;
+}
+
+.text-wrap {
+  position: relative;
+
+  .icon-comp {
+    position: absolute;
+    right: 2em;
+    top: 1em;
+  }
+}

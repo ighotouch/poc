@@ -1,0 +1,43 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.062);
+  border: 1px solid rgba(0, 0, 0, 0.034);
+  transition: 0.3s;
+}
+.top {
+  height: 100px;
+  margin-top: 30px;
+}
+.top-middle {
+  height: 50px;
+  margin-top: 30px;
+}
+.middle {
+  height: 200px;
+  margin-top: 30px;
+}
+
+.bottom {
+  height: 100px;
+  margin-top: 30px;
+  width: 45%;
+}
+
+@keyframes LoadingFrame {
+  0% {
+    background-position: -800px 0;
+  }
+  100% {
+    background-position: 800px 0;
+  }
+}
+
+.animated-background {
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: LoadingFrame;
+  animation-timing-function: linear;
+  background-color: #f6f7f8;
+  background: linear-gradient(to right, #f8f9fa 18%, #f1f3f5 30%, #f8f9fa 33%);
+  background-size: 800px 104px;
+}

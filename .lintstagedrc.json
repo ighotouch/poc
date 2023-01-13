@@ -1,0 +1,4 @@
+{
+  "src/**/*.{js,ts,jsx,tsx}": ["yarn lint"],
+  "*.{json,tsx}": ["yarn format"]
+}

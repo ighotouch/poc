@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  loan-app:
+    container_name: loan-app
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    ports:
+      - '5001:80'

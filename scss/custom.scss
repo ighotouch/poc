@@ -1,0 +1,84 @@
+// Include any default variable overrides here (though functions won't be available)
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+$blue: #0d6efd !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #b62985 !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #198754 !default;
+$teal: #20c997 !default;
+$cyan: #0dcaf0 !default;
+$secondary: #5F738C !default;
+$vgrey: #4b4b4b !default;
+$defaultText: #353f50 !default;
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 730px,
+  xl: 740px,
+  xxl: 750px,
+);
+
+$primary: $pink;
+$dark: $vgrey;
+
+// $primary: $blue;
+$secondary: $secondary;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-900;
+
+$theme-colors: (
+  "primary": $pink,
+  "secondary": $secondary,
+  "success": $green,
+  "info": $cyan,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+  "header": $defaultText,
+  "default": $vgrey,
+);
+
+
+
+$offcanvas-vertical-height:         50vh;
+
+
+$input-btn-padding-y:         .375rem;
+$input-btn-padding-x:         .75rem;
+$input-btn-font-family:       'Averta';
+
+$input-btn-focus-width:         .09rem;
+$input-btn-focus-color-opacity: .25;
+$input-btn-focus-color:         $pink;
+$input-btn-focus-blur:          0;
+$input-btn-focus-box-shadow:    0 0 $input-btn-focus-blur $input-btn-focus-width $input-btn-focus-color;
+
+
+//NAVIGATION
+$navbar-dark-color: $white;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+// Color system

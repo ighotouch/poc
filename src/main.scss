@@ -1,0 +1,39 @@
+@import "../scss/custom.scss";
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: "Cera Pro";
+  src: url("./assets/fonts/ceraProMedium.otf");
+}
+@font-face {
+  font-family: "Averta";
+  src: url("./assets/fonts/avertaRegular.otf");
+}
+
+* {
+  font-family: Averta, Sans-serif, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  // overflow: hidden;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: 600;
+  color: #353f50;
+}
+
+// .MuiBox-root{
+//     padding: 0 !important;
+//     padding-top: 24px;
+// }
